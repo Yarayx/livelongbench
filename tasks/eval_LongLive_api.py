@@ -22,7 +22,7 @@ from src import ModelArgs, DefaultDataCollator, FileLogger, makedirs, get_pipeli
 from tasks.longlivebench_utils import continue_gen, create_path, count_lines, cal_metric_ori, compute_and_save_metrics
 from tasks.prompt import get_evaluate_prompts, get_doc_str, close_cached_files
 from src.generate import generate as eval_generate
-from src.eval_loong_config import load
+from src.eval_config import load
 import multiprocessing
 import requests
 import numpy as np
