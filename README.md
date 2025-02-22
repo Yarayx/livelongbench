@@ -34,7 +34,7 @@ cd livelongbench
 ### 2. Install Dependencies
 We recommend setting up a virtual environment:
 ```bash
-conda create -n livelongbench python=3.8
+conda create -n livelongbench python=3.10
 conda activate livelongbench
 pip install -r requirements.txt
 ```
