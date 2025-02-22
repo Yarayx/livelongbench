@@ -1,0 +1,7 @@
+type: "chatglm"
+args:
+  api_name: "glm-4-plus"
+  api_key: "c4fe404901825cc29c3da9a16376aa2c.7vTnRYVftdVEF0PT"
+  api_url: ""
+run_args:
+  temperature: 0.0
