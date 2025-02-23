@@ -9,6 +9,8 @@ To bridge this gap, **LiveLongBench** introduces the first spoken long-text data
 - **Reasoning-dependent tasks**
 - **Hybrid tasks**
 
+![Benchmark Tasks](image/tasks.png)
+
 We evaluate a variety of popular LLMs and specialized methods on this benchmark, revealing that current approaches struggle to process highly redundant texts effectively. Our findings indicate clear preferences for specific task types, with no single method excelling across all tasks. To address these challenges, we propose a simple yet strong baseline that significantly improves performance in processing spoken long-texts.
 
 LiveLongBench serves as a valuable resource for advancing long-text understanding in real-world applications, particularly in e-commerce and live-streaming scenarios.
