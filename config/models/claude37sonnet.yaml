@@ -1,0 +1,7 @@
+type: "claude"
+args:
+  api_name: "claude-3-7-sonnet-20250219" 
+  api_key: "" 
+  api_url: "" 
+run_args:
+  temperature: 0.0

@@ -1,0 +1,7 @@
+type: "openai"
+args:
+  api_name: "gpt-4o" 
+  api_key: ""
+  api_url: "" 
+run_args:
+  temperature: 0.0

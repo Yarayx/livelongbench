@@ -1,0 +1,8 @@
+accelerate==1.1.1
+bitsandbytes==0.44.1
+flash-attn==2.7.0.post2
+minference==0.1.5.post1
+ninja==1.11.1.1
+tqdm==4.67.0
+transformers==4.44.2
+triton==3.0.0
