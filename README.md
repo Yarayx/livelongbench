@@ -60,14 +60,12 @@ Make sure you have properly configured your API keys and access before running A
 
 You can modify the existing scripts or create new ones under the scripts/ directory to test additional models, whether local or API-based.
 
-## Citation
-If you find this repository useful for your research, please consider citing our paper:
-```
-@inproceedings{livelongbench2025,
-  title={LiveLongBench: Tackling Long-Context Understanding for Spoken Texts from Live Streams},
-  author={},
-  year={}
-  booktitle ={},
-  url={},
-}
-```
+## Dataset Access
+A small sample of the dataset is included in this repository under the data/livedata/ directory for demonstration purposes.
+
+The full dataset is stored on Google Drive due to size/privacy considerations.
+If you would like to access the complete dataset, please request access via the following link:
+
+🔗 [Click here to request full dataset access](https://drive.google.com/drive/folders/1aWDSOwfeVCNnUqP0ZLo0vsC5soCAlssN?usp=drive_link)
+
+We will review your request and grant access as appropriate.
