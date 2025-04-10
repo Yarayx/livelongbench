@@ -30,11 +30,6 @@ from decimal import Decimal
 import time
 from openai import OpenAI
 import logging
-logging.basicConfig(
-        filename='/mnt/yx/output_exp.log',  # 日志文件名
-        level=logging.INFO,     # 日志级别
-        format='%(asctime)s - %(levelname)s - %(message)s'  # 日志格式
-    )
 
 @dataclass
 class Args(ModelArgs):
