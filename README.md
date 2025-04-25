@@ -67,7 +67,7 @@ You can modify the existing scripts or create new ones under the scripts/ direct
 ## Dataset Access
 A small sample of the dataset is included in this repository under the data/livedata/ directory for demonstration purposes.
 
-The full dataset is stored on Google Drive due to size/privacy considerations.
+The full dataset is stored on Google Drive due to size and privacy considerations.
 If you would like to access the complete dataset, please request access via the following link:
 
 🔗 [Click here to request full dataset access](https://drive.google.com/drive/folders/1aWDSOwfeVCNnUqP0ZLo0vsC5soCAlssN?usp=drive_link)
