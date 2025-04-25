@@ -69,3 +69,19 @@ If you would like to access the complete dataset, please request access via the 
 🔗 [Click here to request full dataset access](https://drive.google.com/drive/folders/1aWDSOwfeVCNnUqP0ZLo0vsC5soCAlssN?usp=drive_link)
 
 We will review your request and grant access as appropriate.
+
+## 📖 Citation
+
+If you find this repository useful, please consider citing our paper:
+```
+@misc{wu2025livelongbenchtacklinglongcontextunderstanding,
+      title={LiveLongBench: Tackling Long-Context Understanding for Spoken Texts from Live Streams}, 
+      author={Yongxuan Wu and Runyu Chen and Peiyu Liu and Hongjin Qian},
+      year={2025},
+      eprint={2504.17366},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.17366}, 
+}
+```
+Or visit the paper on [arXiv](https://arxiv.org/abs/2504.17366).
