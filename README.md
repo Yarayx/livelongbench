@@ -64,15 +64,23 @@ Make sure you have properly configured your API keys and access before running A
 
 You can modify the existing scripts or create new ones under the scripts/ directory to test additional models, whether local or API-based.
 
+
 ## Dataset Access
-A small sample of the dataset is included in this repository under the data/livedata/ directory for demonstration purposes.
+
+A small sample of the dataset is included in this repository under the `data/livedata/` directory for demonstration purposes.
 
 The full dataset is stored on Google Drive due to size and privacy considerations.
-If you would like to access the complete dataset, please request access via the following link:
+
+If you would like to access the complete dataset, please follow these steps:
+
+1. **Complete the official [Application Form](./Data_Access_Form.pdf)** and ensure it is **hand-signed**.
+2. Send the signed form to **[livelongbench@163.com](mailto:livelongbench@163.com)**.
+3. After submission, request dataset access via the following link:
 
 🔗 [Click here to request full dataset access](https://drive.google.com/drive/folders/1aWDSOwfeVCNnUqP0ZLo0vsC5soCAlssN?usp=drive_link)
 
-We will review your request and grant access as appropriate.
+We will review your application and grant access upon approval.
+
 
 ## 📖 Citation
 
