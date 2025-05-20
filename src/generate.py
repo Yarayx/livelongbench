@@ -12,8 +12,8 @@ from zhipuai import ZhipuAI
 from anthropic import Anthropic
 import google.generativeai as genai
 import random
-import httpx  # 确保导入httpx库
-from httpx import RequestError  # 导入RequestError
+import httpx  
+from httpx import RequestError  
 
 class MyEncoder(json.JSONEncoder):
     def default(self, obj):
