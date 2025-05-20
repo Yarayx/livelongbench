@@ -7,8 +7,8 @@ from typing import Optional, List, Tuple, Union, Dict
 @dataclass
 class ModelArgs:
     strategy: Optional[str] = field(
-        default='default_strategy',  # 默认值
-        metadata={"help": "The strategy to use for some operation."}  # 帮助信息
+        default='default_strategy', 
+        metadata={"help": "The strategy to use for some operation."} 
     )
     model_cache_dir: str = field(
         default='',
