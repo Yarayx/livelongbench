@@ -20,11 +20,6 @@ import pysrt
 
 from .token_length import token_length
 
-logging.basicConfig(
-        filename='/mnt/yx/output_exp.log',  # 日志文件名
-        level=logging.INFO,     # 日志级别
-        format='%(asctime)s - %(levelname)s - %(message)s'  # 日志格式
-    )
 logger = logging.getLogger(__name__)
 
 ## cal_metrics
@@ -215,19 +210,15 @@ def close_cached_files():
     file_handle_cache.clear()
 
 def extract_text_from_srt(srt_file_path):
-    # 检查文件是否存在
     if not os.path.exists(srt_file_path):
         logger.info(f"文件不存在: {srt_file_path}")
         return ""
 
     try:
-        # 打开并读取srt文件
         subs = pysrt.open(srt_file_path, encoding='utf-8')
         
-        # 提取所有字幕条目的文本部分
         text_parts = [sub.text for sub in subs]
         
-        # 将所有文本部分合并成一个字符串
         full_text = '\n'.join(text_parts)
         
         return full_text
@@ -243,7 +234,6 @@ def get_content(args, item, doc_name, idx):
 
     path = docPath / f"{doc_name}.srt"
     try:
-        # 使用 extract_text_from_srt 函数从 SRT 文件中提取文本
         doc = extract_text_from_srt(path)
     except Exception as e:
         logger.Error(f"Error processing SRT file {path}: {e}")
