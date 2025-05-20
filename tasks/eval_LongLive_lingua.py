@@ -196,11 +196,9 @@ def process_longlivebench(data, indices, tokenizer, max_length=3500, truncate_fr
     return outputs
 
 def flatten_answer(answer):
-    """将 answer 字典转换为字符串格式"""
     if isinstance(answer, dict):
-        # 将字典中的每个键值对转换为字符串
         return ', '.join([f"{key}: {', '.join(value)}" for key, value in answer.items()])
-    return answer  # 如果不是字典，直接返回
+    return answer  
 
 from llmlingua import PromptCompressor
 def compress_data(data,cp_rate):
