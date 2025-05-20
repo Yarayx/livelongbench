@@ -2,7 +2,7 @@
 
 ## Overview
 This repository contains code for our paper [LiveLongBench: Tackling Long-Context Understanding for Spoken Texts from Live Streams
-](https://arxiv.org/abs/2504.17366).  
+]().  
 > *Please find more details of this work in our paper.*
 
 Long-context understanding poses significant challenges in natural language processing, particularly for real-world dialogues characterized by speech-based elements, high redundancy, and uneven information density. Although large language models (LLMs) achieve impressive results on existing benchmarks, these datasets fail to reflect the complexities of such texts, limiting their applicability to practical scenarios.
@@ -82,18 +82,3 @@ If you would like to access the complete dataset, please follow these steps:
 We will review your application and grant access upon approval.
 
 
-## 📖 Citation
-
-If you find this repository useful, please consider citing our paper:
-```
-@misc{wu2025livelongbench,
-      title={LiveLongBench: Tackling Long-Context Understanding for Spoken Texts from Live Streams}, 
-      author={Yongxuan Wu and Runyu Chen and Peiyu Liu and Hongjin Qian},
-      year={2025},
-      eprint={2504.17366},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.17366}, 
-}
-```
-Or visit the paper on [arXiv](https://arxiv.org/abs/2504.17366).
