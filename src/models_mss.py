@@ -39,8 +39,6 @@ class HuggingFaceModel:
             **model_kwargs,
         ).eval()
 
-        # 新增：创建 SemanticTextSplitter 实例
-        # 使用模型的最大序列长度作为 max_tokens
         max_tokens = self.model.config.max_position_embeddings
         wrapped_tokenizer = TokenizerWrapper(self.tokenizer)
         self.splitter = TextSplitter.from_callback(wrapped_tokenizer, max_tokens)
