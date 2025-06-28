@@ -85,8 +85,8 @@ We will review your application and grant access upon approval.
 
 If you find this repository useful, please consider citing our paper:
 ```
-@misc{wu2025livelongbenchtacklinglongcontextunderstanding,
-      title={LiveLongBench}, 
+@misc{livelongbench,
+      title={LiveLongBench: Tackling Long-Context Understanding for Spoken Texts from Live Streams}, 
       author={Yongxuan Wu and Runyu Chen and Peiyu Liu and Hongjin Qian},
       year={2025},
       eprint={2504.17366},
@@ -94,5 +94,4 @@ If you find this repository useful, please consider citing our paper:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2504.17366}, 
 }
-
 ```
