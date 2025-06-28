@@ -81,4 +81,18 @@ If you would like to access the complete dataset, please follow these steps:
 
 We will review your application and grant access upon approval.
 
+## 📖 Citation
 
+If you find this repository useful, please consider citing our paper:
+```
+@misc{wu2025livelongbenchtacklinglongcontextunderstanding,
+      title={LiveLongBench}, 
+      author={Yongxuan Wu and Runyu Chen and Peiyu Liu and Hongjin Qian},
+      year={2025},
+      eprint={2504.17366},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.17366}, 
+}
+
+```
